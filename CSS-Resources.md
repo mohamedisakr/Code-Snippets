@@ -14,7 +14,7 @@ https://flukeout.github.io/
 
 ### CSS Attribute Selectors
 - Long version
-https://css-tricks.com/attribute-selectors/) 
+https://css-tricks.com/attribute-selectors/
 
 - Shorter version
 https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors
