@@ -7,3 +7,7 @@ https://saucelabs.com/resources/articles/selenium-tips-css-selectors
 https://css-tricks.com/almanac/selectors/
 - Ghost Selector "CSS Selector Strategies for Automated Browser Testing"
 https://ghostinspector.com/blog/css-selector-strategies-automated-browser-testing/
+
+
+CSS Selectors Practice
+https://flukeout.github.io/
