@@ -19,3 +19,6 @@ https://css-tricks.com/attribute-selectors/
 - Shorter version
 https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors
 
+### To find your element is to base it on the position in the HTML. [The `first-child` selector]
+https://developer.mozilla.org/en-US/docs/Web/CSS/:first-child
+https://css-tricks.com/how-nth-child-works/
