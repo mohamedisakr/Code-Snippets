@@ -22,3 +22,9 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors
 ### To find your element is to base it on the position in the HTML. [The `first-child` selector]
 https://developer.mozilla.org/en-US/docs/Web/CSS/:first-child
 https://css-tricks.com/how-nth-child-works/
+
+### `nth-of-type` or `nth-last-child`. 
+- CSS-Tricks 
+https://css-tricks.com/examples/nth-child-tester 
+- nthmaster.com
+http://nthmaster.com
