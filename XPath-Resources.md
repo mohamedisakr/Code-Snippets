@@ -1,3 +1,7 @@
+### 2 big tricks that XPath can do that CSS currently can't. 
+#### 1. To select an element by its text content, which looks something like: `//a[contains(text(),"chive")]`. 
+#### 2. The ability to move "up" from an element. So you can use XPath to select a parent of an element, which isn't possible yet in CSS.
+
 ### - MDN XPath documentation
 https://developer.mozilla.org/en-US/docs/Web/XPath
 
