@@ -1,0 +1,88 @@
+01 Course Overview
+
+Patterns and Practices for Maintainability
+1. Don't Repeat Yourself (DRY)
+2. Single Responsibility Principle
+3. Page Object Pattern
+4. Descriptive and Meaningful Phrases (DAMP)
+
+Factors that make UI tests fragile
+1. What high quality tests look like
+2. Patterns and Practices [DRY, SRP, POP, DAMP, Screenplay ]
+3. Example test scenarios
+
+
+02 Improving Test Maintainabillity
+
+Outline
+1. Why do UI tests break?
+2. What defines high quality tests
+3. What defines maintainability
+4. How do you minimize the impact of change?
+5. applying principles and patterns example
+
+Understanding Maintainability
+1. Why do UI tests break
+	1.1 Change made to the UI
+	1.2 Change made to the application flow
+	1.3 New functionality
+	1.4 UI test framework unreliable
+2. What defines a high quality test
+	2.1 When the test fails it really identifies a problem in the System Under Test (SUT)
+	2.2 The intent of the test is simple to read from the code
+	2.3 The test runs fast and is reliable
+3. What defines maintainability of tests
+	3.1 Changes are not frequently needed
+	3.2 Changes are easy to apply
+	3.3 Changes to the System Under Test don't break your test scenario
+	3.4 If a change to the System Under Test breaks a test, it has no butterfly effect on all tests
+
+How do you minimize the impact of change
+1. Use stable control locator strategy
+		1.1 Accessibility id
+		1.2 Name (Platform specific)
+		1.3 XPath (exremely fragile)
+		1.4 UI Test Recorders (don't use it, they generate very fragile tests)
+2. Minimize repetition of code
+3. Minimize the things tested by one test case
+4. Create abstraction between the test and the System Under Test
+
+Patterns and Practices for Maintainability
+1. Don't Repeat Yourself (DRY)
+2. Single Responsibility Principle
+3. Page Object Pattern
+4. Descriptive and Meaningful Phrases (DAMP)
+
+
+
+03 Applying the DRY Principle
+What is the DRY principle
+What are the SOLID principles
+Single Responsibility Principle
+
+
+04 Applying the Single Responsiblility Principle
+
+05 Applying the DAMP Principle
+
+Introduction to Page Object Pattern
+1. For each page/screen create a class that abstracts the interaction with the page/screen
+2. For each action create an action method that returns a page object
+3. For each validation/verification create a method that executes the validation/verification and returns true or false
+4. It takes the SRP 1 step further, isolate each screen
+
+Introduction to DAMP (Descriptive And Meaningful Phrases)
+1. Use the page object pattern 
+2. Read the code as if it is a sentence
+3. Clean test scenario without clutter caused by framework you are using
+		no driver
+		no FindElement calls	
+		no Wait operations
+
+Introduction to Screenplay Pattern
+1. Further abstraction
+2. Support Gherkin Language 
+		Given: Arrange  
+		When: Act 
+		Then: Assert
+3. Useful for Acceptance Test Driven Development (ATDD)
